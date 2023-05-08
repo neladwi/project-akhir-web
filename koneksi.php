@@ -10,7 +10,7 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 
 // Memeriksa apakah koneksi berhasil atau tidak
 if (!$conn) {
-  die("Koneksi ke database gagal: " . mysqli_connect_error());
+  die("Koneksi ke database gagal : " . mysqli_connect_error());
 }
 
 // Jika koneksi berhasil, Anda dapat menghilangkan pesan error di atas
