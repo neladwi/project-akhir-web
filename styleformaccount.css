@@ -1,0 +1,250 @@
+@charset "utf-8";
+        @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+*{
+  margin:0px;
+  font-family: sans-serif;
+  color: white;
+}
+
+body{
+  background-image: url("BTR\ Background.webp");
+  overflow-y: scroll;
+}
+
+#content {
+  height: 1000px; /* sesuaikan dengan tinggi konten Anda */
+}
+
+header h1{
+  background-color: rgb(26, 26, 26);
+  /* cara membaca arah padding sesuai dengan arah jarum jam (mulai dari atas/padding-top, lalu padding-left/kiri dan selanjutnya memutar) */
+  padding: 15px 0px 20px 20px;
+  color: white;
+  margin-top: 2px;
+}
+
+nav{
+  background-color: rgb(6, 2, 2);
+  padding: 10px 0px 10px 25px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  margin-left: 37px;
+  margin-right: -12px;
+}
+
+nav a:hover{
+  background-color:rgb(26, 26, 26); 
+  transition : 0,1s;
+  box-shadow: px 1px 10px 2px rgb(170, 165, 165);
+}
+
+.container{
+  text-align: justify;
+}
+
+.container h1{
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.container-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  margin-top: 70px;
+}
+
+#metode_pembayaran {
+  width: 80px; /* Ubah nilai sesuai kebutuhan */
+  margin: 5 auto; /* Membuat elemen menjadi di tengah */
+  display: block; /* Membuat elemen menjadi block */
+}
+
+.Barang {
+  margin-top: -200px;
+}
+
+.login-box {
+	background-color: rgb(26, 26, 26);
+	color: white;
+	width: 300px;
+	padding: 40px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.user-box {
+	position: relative;
+}
+
+.user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background: transparent;
+}
+
+.user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: rgba(0, 0, 0, 0.2);
+	font-size: 12px;
+  color: white;
+}
+
+select {
+	margin-bottom: 30px;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: white;
+	background-color: rgba(22, 20, 20, 0.2);
+  background-color: rgb(26, 26, 26);
+  
+}
+
+form {
+  text-align: center;
+}
+
+button {
+	background-color: #e50000;
+	color: #fff;
+	border: none;
+	padding: 15px 20px;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: 30px;
+}
+
+button:hover {
+	background-color: red;
+}
+
+.tombol{
+  background-color: #e50000;
+	color: #fff;
+	border: none;
+	padding: 15px 20px;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-top: 30px;
+}
+
+
+.containerform h1{
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.container h2{
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.container h3{
+  font-family: tahoma;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.text1 h4{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text2 h4{
+  text-align: center;
+  margin-top: 30px;
+  font-family: verdana;
+}
+
+.atas{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+footer{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.612);
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footr{
+  color: white;
+  padding: 15px 0px 80px 40px;
+}
+
+.con{
+  background-color: transparent;
+  padding: 30px 40px;
+  margin: 90px 100px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.con h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+iframe{
+ position: absolute;
+ top: 50%; left: 50%;
+ transform: translate(-50%,-50%);
+}
